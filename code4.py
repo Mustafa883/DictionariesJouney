@@ -17,3 +17,4 @@ dictionary = {
     }
 invert = rearrange(dictionary)
 print(invert)
+print("Part4 ended.")
