@@ -25,3 +25,4 @@ employees["Engineering Department"]["David"] = {
 }
 print("The company employees after new arrival: ")
 print(employees)
+def countemployees(company):
