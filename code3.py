@@ -23,3 +23,5 @@ employees["Engineering Department"]["David"] = {
     "Age": 27,
     "Role": "Data Scientist",
 }
+print("The company employees after new arrival: ")
+print(employees)
