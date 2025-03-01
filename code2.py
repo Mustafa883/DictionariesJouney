@@ -14,3 +14,4 @@ def countwords():
             else:
                 wordscounted[word] = 1
     print(wordscounted)
+countwords()
