@@ -7,3 +7,4 @@ def countwords():
         fruits = input("Enter your favorite type of fruits: ")
         if fruits.lower() == 'done':
             break
+        words = fruits.lower().split()
