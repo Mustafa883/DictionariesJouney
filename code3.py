@@ -30,3 +30,6 @@ def countemployees(company):
     for number in company.values():
         totalemployees += len(number)
     return totalemployees
+total = countemployees(employees)
+print("Total number of employees is: ")
+print(total)
