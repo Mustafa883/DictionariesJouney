@@ -1,6 +1,6 @@
 print("Part4: ")
 def rearrange(dictionary):
-     invert = {
+    invert = {
         
     }
     for key, value in dictionary.items():
@@ -9,3 +9,11 @@ def rearrange(dictionary):
         else:
             invert[value] = [key]
     return invert
+dictionary = {
+    "Alice": 10, 
+    "Bob": 20, 
+    "Charlie": 10,
+    "David": 30
+    }
+invert = rearrange(dictionary)
+print(invert)
