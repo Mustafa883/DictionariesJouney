@@ -26,3 +26,7 @@ employees["Engineering Department"]["David"] = {
 print("The company employees after new arrival: ")
 print(employees)
 def countemployees(company):
+    totalemployees = 0
+    for number in company.values():
+        totalemployees += len(number)
+    return totalemployees
