@@ -33,3 +33,4 @@ def countemployees(company):
 total = countemployees(employees)
 print("Total number of employees is: ")
 print(total)
+print("Part3 ended.")
