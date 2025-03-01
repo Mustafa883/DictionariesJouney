@@ -8,3 +8,8 @@ def countwords():
         if fruits.lower() == 'done':
             break
         words = fruits.lower().split()
+        for word in words:
+            if word in wordscounted:
+                wordscounted[word] += 1
+            else:
+                wordscounted[word] = 1
