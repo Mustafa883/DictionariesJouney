@@ -19,3 +19,7 @@ employees = {
 }
 print("The company employees are: ")
 print(employees)
+employees["Engineering Department"]["David"] = {
+    "Age": 27,
+    "Role": "Data Scientist",
+}
