@@ -15,3 +15,4 @@ def countwords():
                 wordscounted[word] = 1
     print(wordscounted)
 countwords()
+print("Part2 ended.")
